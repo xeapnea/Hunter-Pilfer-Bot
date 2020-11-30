@@ -1,4 +1,0 @@
-C:\Users\Public\GitHub\Hunter-Pilfer-Bot\HunterPilferBot\obj\Debug\netcoreapp3.1\HunterPilferBot.csprojAssemblyReference.cache
-C:\Users\Public\GitHub\Hunter-Pilfer-Bot\HunterPilferBot\obj\Debug\netcoreapp3.1\HunterPilferBot.AssemblyInfoInputs.cache
-C:\Users\Public\GitHub\Hunter-Pilfer-Bot\HunterPilferBot\obj\Debug\netcoreapp3.1\HunterPilferBot.AssemblyInfo.cs
-C:\Users\Public\GitHub\Hunter-Pilfer-Bot\HunterPilferBot\obj\Debug\netcoreapp3.1\HunterPilferBot.csproj.CoreCompileInputs.cache
