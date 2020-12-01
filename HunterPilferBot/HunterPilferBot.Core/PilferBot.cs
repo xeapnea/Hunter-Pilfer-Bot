@@ -67,6 +67,12 @@ namespace HunterPilferBot.Core
 
 				Hook(Client, Commands);
 
+				foreach (var mod in _modules)
+					await Commands.AddModuleAsync(mod, _serviceProvider);
+
+				foreach (var asm in _assemblies)
+					await Commands.AddModulesAsync(asm, _serviceProvider);
+
 				await Client.LoginAsync(TokenType.Bot, Token);
 				await Client.StartAsync();
 

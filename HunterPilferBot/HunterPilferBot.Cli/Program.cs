@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 
 namespace HunterPilferBot.Cli
 {
+	using Commands.Example;
 	using Core;
 
 	public class Program
@@ -16,7 +17,7 @@ namespace HunterPilferBot.Cli
 				})
 				.Config("appsettings.json")
 				.Get<IPilferBot>()
-
+				.Module<ExampleCommand>()
 				.Start();
 
 			if (!worked)
